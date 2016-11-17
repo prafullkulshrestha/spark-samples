@@ -1,0 +1,12 @@
+spring:
+  batch:
+    job:
+      enabled: false
+  hadoop:
+    resource-manager-host: 192.168.9.128
+demo:
+  inputLocalDir: /user/user01
+  inputFileName: tweets.dat
+  inputDir: /user/user01/input
+  outputDir: /user/user01/output
+  sparkAssembly: file:///user/user01/jar/spark-assembly-1.6.1-hadoop2.7.0-mapr-1602.jar
